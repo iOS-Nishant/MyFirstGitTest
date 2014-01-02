@@ -1,4 +1,4 @@
-#import "WoWApiClient.h"
+//#import "WoWApiClient.h"
 #import "AFJSONRequestOperation.h"
 #import "Character.h"
 #import "Guild.h"
