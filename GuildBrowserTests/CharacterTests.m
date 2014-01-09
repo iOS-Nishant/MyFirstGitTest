@@ -21,7 +21,7 @@
     NSError *error;
     id json = [NSJSONSerialization JSONObjectWithData:sampleData options:kNilOptions error:&error];
     STAssertNotNil(json, @"Invalid test data");
-   // _characterDetailJson = json;
+    _characterDetailJson = json;
 }
 
 -(void)tearDown
