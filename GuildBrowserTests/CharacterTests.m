@@ -34,11 +34,11 @@
 {
     // 2
   
-    STAssertNotNil(_characterDetailJson, @"Could not create character from detail json");
+    STAssertNotNil(_characterDetailJson, @" \n\n Could not create character from given json \n\n ");
     
-    // 3
+   // 3
    // id *testGuy2 = [[Character alloc] initWithCharacterDetailData:nil];
-  //  STAssertNotNil(testGuy2, @"Could not create character from nil data");
+   // STAssertNotNil(testGuy2, @"Could not create character from nil data");
 }
 
 @end

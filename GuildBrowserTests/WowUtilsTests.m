@@ -31,7 +31,6 @@
    //  STAssertFalse([@"Grey" isEqualToString:[WoWUtils qualityFromQualityType:1]],nil);
     
     STAssertFalse([@"Purple" isEqualToString:[WoWUtils qualityFromQualityType:1099]],nil);
-   
 }
 
 @end
