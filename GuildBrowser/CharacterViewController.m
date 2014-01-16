@@ -36,6 +36,8 @@
 -(void)reloadCharactersFromRealm:(NSString *)aRealmName guildName:(NSString *)aGuildName
 {    
     [self setNetworkActivityIndicatorVisible:YES];
+    
+    NSLog(@"For the sake of new commit");
         
     [[WoWApiClient sharedClient] guildWithName:aGuildName onRealm:aRealmName success:^(Guild *guild) {
         

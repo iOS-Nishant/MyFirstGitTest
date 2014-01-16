@@ -7,6 +7,7 @@
     // Override point for customization after application launch.
     [self customizeAppearance];
     NSLog(@"For the sake of new commit");
+    NSLog(@"For the sake of chwcking tag of old commit");
     
     return YES;
 }
