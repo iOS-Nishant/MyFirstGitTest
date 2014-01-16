@@ -6,6 +6,7 @@
 {
     // Override point for customization after application launch.
     [self customizeAppearance];
+    NSLog(@"For the sake of new commit");
     
     return YES;
 }
